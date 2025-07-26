@@ -1,0 +1,4 @@
+echo "Compiling assembly"
+nasm -f elf64 add.asm -o add.o
+ld add.o -o add
+echo "Compilation complete"
